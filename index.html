@@ -1,110 +1,220 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kelvin Grove Neighborhood</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <div class="container">
-      <a class="navbar-brand" href="#home">Kelvin Grove</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#new-move-ins">New Move-Ins</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#emergency-prep">Emergency Prep</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#resources">Resources</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kelvin Grove Neighborhood</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Kelvin Grove</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#emergency-prep"> Safety </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resources"> Resources </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="home" class="route">
+      <div class="container my-5">
+        <h1 class="text-secondary">Welcome To The Kelvin Grove Neighborhood</h1>
+      </div>
+      <div class="container">
+        <img
+          src="assets/Around-the-Neighborhood.jpg"
+          class="img-fluid"
+          style="max-height: 500px"
+          alt="Neighborhood"
+        />
+      </div>
+      <div class="container my-4">
+        <h2>Quick Links</h2>
+        <div style="display: flex; gap: 16px; flex-direction: row">
+          <a
+            class="btn btn-primary"
+            href="https://www.facebook.com/groups/141647502615763"
+          >
+            Facebook Group
+          </a>
+          <a class="btn btn-primary" href="#emergency-prep">
+            Neighborhood Safety
+          </a>
+        </div>
+      </div>
+      <div class="container my-4">
+        <h2>Just Moved In?</h2>
+        <p>TO DO: Add the "new neighbor" survey, link to Facebook page, etc.</p>
       </div>
     </div>
-  </nav>
-  <div id="home" class="route">
-    <div class="container my-5">
-      <h1 class="text-secondary">Welcome To The Kelvin Grove Neighborhood</h1>
+    <div id="emergency-prep" class="route">
+      <div class="container my-5">
+        <h2 class="text-secondary">
+          Neighborhood Safety: Preparing for Emergencies
+        </h2>
+      </div>
+      <div class="container my-4">
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="card">
+              <h5 class="card-header">Sign Up For <em> Citizen Alert </em></h5>
+              <div class="card-body">
+                <p>
+                  Stay informed about local emergencies. Visit Springville's
+                  <em> Citizen Alert </em> page to sign up for alerts.
+                </p>
+                <a
+                  href="https://member.everbridge.net/index/1772417038942978#/login"
+                  class="btn btn-primary"
+                >
+                  Sign Up For Alerts
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 my-3 d-block d-md-none"></div>
+          <div class="col">
+            <div class="card">
+              <h5 class="card-header">
+                In An Emergency, Who Knows You Need Help?
+              </h5>
+              <div class="card-body">
+                <p>
+                  If power or cell service is down during an emergency, how will
+                  first responders know who needs help?
+                </p>
+                <p>
+                  Every street has a Block Captain who checks on neighbors and
+                  reports emergencies to the city using HAM radio. Expect a
+                  visit from your Block Captain in the event of an emergency
+                  such as a natural disaster. Be suspicious of anyone you don't
+                  know who claims to be from the government or first responders.
+                </p>
+                <p>
+                  To find out who your Block Captain is, or to volunteer as a
+                  Block Captain, call Kelvin Grove resident Kelly Veater at
+                  801-358-5089.
+                </p>
+                <a
+                  href="https://www.springville.org/fire-rescue/emergency-preparedness/emergency-drill/block-captains/"
+                  class="btn btn-primary"
+                >
+                  Learn More About Block Captains
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-100 my-3 d-block d-md-none"></div>
+          <div class="col">
+            <div class="card">
+              <h5 class="card-header">Emergency Drills</h5>
+              <div class="card-body">
+                <p>
+                  The city and state conduct emergency drills periodically.
+                  Neighborhood residents are encouraged to participate when
+                  possible.
+                </p>
+                <p>
+                  For information about upcoming drills, visit Springville's
+                  website:
+                </p>
+                <a
+                  href="https://www.springville.org/fire-rescue/emergency-preparedness/emergency-drill/"
+                  class="btn btn-primary"
+                >
+                  View City Drill Info
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="container">
-      <img src="assets/Around-the-Neighborhood.jpg" class="img-fluid" alt="Neighborhood">
-      [Just a placeholder image]
+    <div id="resources" class="route">
+      <div class="container my-5">
+        <h2 class="text-secondary">Neighborhood Resources</h2>
+      </div>
+      <div class="container my-4">
+        <p>
+          Use the links below to access other resources related to our
+          neighborhood:
+        </p>
+        <div class="list-group">
+          <a
+            href="https://www.springville.org/"
+            class="list-group-item list-group-item-action"
+            aria-current="true"
+          >
+            Springville City Website
+          </a>
+          <a
+            href="https://www.facebook.com/groups/141647502615763"
+            class="list-group-item list-group-item-action"
+          >
+            Neighborhood Facebook page
+          </a>
+          <a
+            href="https://local.churchofjesuschrist.org/en/units/us/ut/kelvin-grove-ward"
+            class="list-group-item list-group-item-action"
+          >
+            Local Church Services and Activities (Church of Jesus Christ of
+            Latter-day Saints)
+          </a>
+        </div>
+      </div>
     </div>
-    <div class="container my-4">
-      <p>
-        Welcome to the Kelvin Grove neighborhoood of Springville, Utah!
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+    <div id="contact" class="route">
+      <div class="container my-5">
+        <h2 class="text-secondary">Contact The Site Managers</h2>
+      </div>
+      <div class="container my-4">
+        For general neighborhood questions and discussions, consider posting on
+        <a href="https://www.facebook.com/groups/141647502615763">
+          the neighborhood facebook page
+        </a>
+        instead.
+      </div>
+      <div class="container my-4">
+        TO DO: Insert link to contact form here. We can use a Google Form for
+        this.
+      </div>
     </div>
-  </div>
-  <div id="new-move-ins"  class="route">
-    <div class="container my-5">
-      <h2 class="text-secondary">Just Moved In?</h2>
-    </div>
-    <div class="container my-4">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat.
-      </p>
-    </div>
-  </div>
-  <div id="emergency-prep" class="route">
-    <div class="container my-5">
-      <h2 class="text-secondary">Emergency Preparation</h2>
-    </div>
-    <div class="container my-4">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat.
-      </p>
-    </div>
-  </div>
-  <div id="resources" class="route">
-    <div class="container my-5">
-      <h2 class="text-secondary">Neighborhood Resources</h2>
-    </div>
-    <div class="container my-4">
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat.
-      </p>
-    </div>
-  </div>
-  <div id="contact" class="route">
-    <div class="container my-5">
-      <h2 class="text-secondary">Contact The Site Managers</h2>
-    </div>
-    <div class="container my-4">
-      Insert contact form here.
-    </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
-  <script src="main.js"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
 </html>

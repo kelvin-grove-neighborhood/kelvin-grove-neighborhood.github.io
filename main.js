@@ -1,16 +1,10 @@
-const routes = [
-  "#home",
-  "#new-move-ins",
-  "#emergency-prep",
-  "#resources",
-  "#contact",
-];
+const routes = ["#home", "#emergency-prep", "#resources", "#contact"];
 
 window.addEventListener("hashchange", () => {
   routeTo(window.location.hash);
 });
 
-window.addEventListener("load", () => {
+window.addEventListener("DOMContentLoaded", () => {
   routeTo(window.location.hash);
 });
 
@@ -20,6 +14,9 @@ window.addEventListener("load", () => {
  */
 function routeTo(newView) {
   console.log("Navigated to:", newView);
+  if (newView === "") {
+    newView = "#home";
+  }
   if (!routes.includes(newView)) {
     window.location.hash = "#home";
     return;

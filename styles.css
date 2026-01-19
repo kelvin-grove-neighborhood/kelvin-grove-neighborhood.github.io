@@ -1,0 +1,9 @@
+:root {
+  --bs-body-bg: var(--bs-blue-500);
+  --bs-secondary: var(--bs-orange-500);
+  --bs-secondary-rgb: 253, 126, 20;
+}
+
+.route {
+  display: none;
+}
